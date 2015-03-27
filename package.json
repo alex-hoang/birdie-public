@@ -1,0 +1,19 @@
+{
+  "name": "birdie",
+  "version": "1.0.0",
+  "description": "RESTful Twitter Topics API",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "method-override": "^2.3.2",
+    "mongoose": "^3.8.25",
+    "oauth": "^0.9.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alex Hoang",
+  "license": "ISC"
+}
