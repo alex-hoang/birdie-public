@@ -1,4 +1,4 @@
-#Birdie - Imoji server exercise
+#Birdie
 
 #Client Rest Endpoints
 * GET /birdie/rest/topics............Gets all trending topics
@@ -11,6 +11,7 @@
 <p>MongoDB is required. Please install the mongo database locally. Make sure MongoDB is running after installing.</p>
 <p>After installing MongoDB locally, do an 'npm install' to install the module dependencies included in package.json.</p>
 <p><b>To run: node server</b></p>
+<p><b>NOTE: Please add a Twitter Consumer Key and Consumer Secret into the /config/config.js file</b></p>
 
 #Example requests to server
 <p>curl -X POST localhost:3000/birdie/rest/topics/load</p>
